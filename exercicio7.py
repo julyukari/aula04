@@ -1,6 +1,7 @@
 soma=0
-for x in range(5):
-    num= int(input("digite um numero: "))
-    soma=soma+num
-media=soma/5
+num= int(input("digite a quantidade de numeros que você quer: "))
+for x in range(num):
+  nums= int(input("digite os numeros :"))
+  soma=soma+nums
+media=soma/num
 print(f" a media é {media} ")
